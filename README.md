@@ -39,18 +39,13 @@ Application web moderne qui automatise l'extraction et la structuration des donn
    pip install -r requirements.txt
    ```
 
-4. **Configurer les variables d'environnement**
-   - Créez un fichier `.env` dans le dossier `backend` avec :
+4. **Configuration (Optionnel)**
+   - Le projet est déjà configuré avec des clés API par défaut.
+   - Si vous souhaitez utiliser vos propres clés, créez un fichier `.env` dans le dossier `backend` :
      ```
-     # Chemin vers votre fichier de credentials Google Cloud (format JSON)
+     # Uniquement nécessaire pour utiliser vos propres clés
      GOOGLE_APPLICATION_CREDENTIALS="chemin/vers/votre/clef.json"
-     
-     # Votre clé API Gemini
      GEMINI_API_KEY="votre_clef_api_gemini"
-     
-     # Environnement (développement par défaut)
-     FLASK_ENV=development
-     ```
 
 5. **Configurer le Frontend**
    ```bash
