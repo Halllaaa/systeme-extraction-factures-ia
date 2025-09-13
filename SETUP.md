@@ -65,29 +65,4 @@
 - **Problèmes d'authentification** : Vérifiez le fichier de credentials Google Cloud
 - **Erreurs de dépendances** : Exécutez `npm install` ou `pip install` à nouveau
 
-## 📦 Structure du Projet
-
-```
-ocr-factures-ia/
-├── backend/           # Code source du backend Python
-├── frontend/          # Application React
-├── docs/              # Documentation supplémentaire
-└── README.md          # Documentation principale
-```
-## 🔄 Variables d'environnement
-
-Créez un fichier `.env` dans le dossier `backend` avec :
-```
-GOOGLE_APPLICATION_CREDENTIALS="chemin/vers/votre/clef.json"
-GEMINI_API_KEY="votre_clef_api_gemini"
-FLASK_ENV=development
-```
-
-## 🧪 Tests
-
-Pour exécuter les tests du backend :
-```bash
-cd backend
-pytest
-```
 
